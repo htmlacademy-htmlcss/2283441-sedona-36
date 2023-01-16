@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Виктория Орлова](https://up.htmlacademy.ru/htmlcss/36/user/2283441).
-* Наставник: `Неизвестно`.
+* Наставник: [Антон Попов](https://htmlacademy.ru/profile/joker).
 
 ---
 
