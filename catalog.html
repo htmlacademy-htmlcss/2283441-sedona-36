@@ -22,7 +22,82 @@
       </nav>
     </header>
 
-    <main></main>
+    <main class="main-inner">
+      <header class="inner-header">
+        <h1>Гостиницы Седоны</h1>
+        <ul class="breadcrumbs">
+          <li class="breadcrumbs-item">
+            <a href="index.html">Главная</a>
+            <!--Оставила слово, тк проверяю
+            результат в браузере, уберу как только добавлю иконку-->
+          </li>
+          <li class="breadcrumbs-item">Гостиницы</li>
+        </ul>
+        <section class="catalog-products">
+          <form action="#" class="catalog-filter">
+            <fieldset class="catalog-filter-group">
+              <legend class="catalog-filter-legend">Инфраструктура:</legend>
+              <label class="control">
+                <input
+                  type="checkbox"
+                  name="Бассейн"
+                  class="control-input"
+                  checked
+                />Бассейн
+              </label>
+              <label class="control">
+                <input
+                  type="checkbox"
+                  name="Парковка"
+                  class="control-input"
+                  checked
+                />Парковка
+              </label>
+              <label class="control">
+                <input
+                  type="checkbox"
+                  name="Wi-Fi"
+                  class="control-input"
+                />Wi-Fi
+              </label>
+            </fieldset>
+            <fieldset class="catalog-filter-group">
+              <legend class="catalog-filter-legend">Тип Жилья:</legend>
+              <label class="control">
+                <input
+                  type="radio"
+                  name="type-housing"
+                  class="control-input"
+                  value="Гостиница"
+                  checked
+                />Гостиница
+              </label>
+              <label class="control">
+                <input
+                  type="radio"
+                  name="type-housing"
+                  class="control-input"
+                  value="Мотель"
+                />Мотель
+              </label>
+              <label class="control">
+                <input
+                  type="radio"
+                  name="type-housing"
+                  class="control-input"
+                  value="Апартаменты"
+                />Апартаменты
+              </label>
+            </fieldset>
+            <fieldset class="catalog-filter-group">
+              <legend class="catalog-filter-legend">Стоимость, Р:</legend>
+            </fieldset>
+            <button class="apply" type="submit">Применить</button>
+            <button class="refresh" type="reset">Сбросить</button>
+          </form>
+        </section>
+      </header>
+    </main>
 
     <footer>
       <section class="newsletter">
