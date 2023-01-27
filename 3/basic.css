@@ -1,0 +1,12 @@
+.basic {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.welcome {
+  background-image: url(img/background/index-background.jpg)
+}
+
+.to-main {
+  background-color: rgb(120, 13, 192);
+}
