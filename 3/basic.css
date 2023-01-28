@@ -1,10 +1,12 @@
 .basic {
   margin: 0 auto;
-  max-width: 1000px;
+  max-width: 1200px;
 }
 
 .welcome {
-  background-image: url(img/background/index-background.jpg)
+  background-image: url(img/background/index-background.jpg);
+  width: 1200px;
+  height: 485px;
 }
 
 .to-main {
