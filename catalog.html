@@ -9,7 +9,13 @@
   <body class="basic">
     <header>
       <a href="index.html">
-        <img class="logo" src="#" alt="Логотип «Седона»" />
+        <img
+          class="logo"
+          src="img/logo/logo.svg"
+          width="140"
+          height="70"
+          alt="Логотип «Седона»"
+        />
       </a>
       <nav class="navigation">
         <a class="navigation-link" href="index.html">Главная</a>
@@ -17,8 +23,20 @@
         <a class="navigation-link" href="catalog.html">Гостиницы</a>
       </nav>
       <nav class="navigation-user">
-        <a class="navigation-link" href="#">Поиск</a>
-        <a class="navigation-link" href="#">Избранное</a>
+        <a class="navigation-link" href="#">
+          <img src="img/icons/search.svg" width="20" height="20" alt="Поиск" />
+        </a>
+        <div>
+          <a class="navigation-link" href="#">
+            <img
+              src="img/icons/favorites.svg"
+              width="20"
+              height="20"
+              alt="Избранное"
+            />
+          </a>
+          <span class="favorite-count">12</span>
+        </div>
         <a class="button" href="#">хочу сюда!</a>
       </nav>
     </header>
@@ -28,9 +46,15 @@
         <h1>Гостиницы Седоны</h1>
         <ol class="breadcrumbs">
           <li class="breadcrumbs-item">
-            <a href="index.html">Главная</a>
-            <!--Оставила слово "Главная", тк проверяю
-            результат в браузере, уберу как только добавлю иконку-->
+            <a href="index.html">
+              <img
+                class="to-main"
+                src="img/icons/to-main.png"
+                width="12"
+                height="12"
+                alt="Главная"
+              />
+            </a>
           </li>
           <li class="breadcrumbs-item">Гостиницы</li>
         </ol>
@@ -125,55 +149,101 @@
           <option value="expensive">Сначала дорогое</option>
         </select>
         <button type="button" class="button-view">
-          <span class="visually-hidden">Плитка</span>
+          <img src="img/icons/tile.svg" width="16" height="14" alt="Плитка" />
         </button>
         <button type="button" class="button-view">
-          <span class="visually-hidden">Крупные изображения</span>
+          <img
+            src="img/icons/large.svg"
+            width="16"
+            height="14"
+            alt="Крупные изображения"
+          />
         </button>
         <button type="button" class="button-view">
-          <span class="visually-hidden">Список</span>
+          <img src="img/icons/list.svg" width="16" height="14" alt="Список" />
         </button>
       </div>
 
       <section class="catalog">
         <article class="catalog-card">
-          <img class="hotel-1" src="" alt="Гостиница Amara Resort & Spa" />
+          <img
+            class="hotel-1"
+            src="img/photo/hotel-1.png"
+            width="300"
+            height="210"
+            alt="Гостиница Amara Resort & Spa"
+          />
           <h3 class="catalog-card-title">Amara Resort & Spa</h3>
           <p class="catalog-card-type">Гостиница</p>
           <p class="catalog-card-price">От 4000 ₽</p>
           <a class="button" href="#">Подробнее</a>
           <button type="button" class="favorites">В избранное</button>
-          <p class="catalog-card-rating">Рейтинг: 8,5</p>
+          <p class="catalog-card-rating">
+            <img src="img/icons/star.svg" />
+            <img src="img/icons/star.svg" />
+            <img src="img/icons/star.svg" />
+            <img src="img/icons/star.svg" /> Рейтинг: 8,5
+          </p>
         </article>
 
         <article class="catalog-card">
-          <img class="hotel-2" src="" alt="Гостиница Villas at Poco Diablo" />
+          <img
+            class="hotel-2"
+            src="img/photo/hotel-2.jpg"
+            width="300"
+            height="210"
+            alt="Гостиница Villas at Poco Diablo"
+          />
           <h3 class="catalog-card-title">Villas at Poco Diablo</h3>
           <p class="catalog-card-type">Гостиница</p>
           <p class="catalog-card-price">От 5000 ₽</p>
           <a class="button" href="#">Подробнее</a>
           <button type="button" class="favorites">В избранное</button>
-          <p class="catalog-card-rating">Рейтинг: 9,2</p>
+          <p class="catalog-card-rating">
+            <img src="img/icons/star.svg" />
+            <img src="img/icons/star.svg" />
+            <img src="img/icons/star.svg" />
+            <img src="img/icons/star.svg" /> Рейтинг: 9,2
+          </p>
         </article>
 
         <article class="catalog-card">
-          <img class="hotel-3" src="" alt="Гостиница Desert Quail Inn" />
+          <img
+            class="hotel-3"
+            src="img/photo/hotel-3.jpg"
+            width="300"
+            height="210"
+            alt="Гостиница Desert Quail Inn"
+          />
           <h3 class="catalog-card-title">Desert Quail Inn</h3>
           <p class="catalog-card-type">Гостиница</p>
           <p class="catalog-card-price">От 2500 ₽</p>
           <a class="button" href="#">Подробнее</a>
           <button type="button" class="favorites">В избранное</button>
-          <p class="catalog-card-rating">Рейтинг: 6,9</p>
+          <p class="catalog-card-rating">
+            <img src="img/icons/star.svg" />
+            <img src="img/icons/star.svg" />
+            <img src="img/icons/star.svg" /> Рейтинг: 6,9
+          </p>
         </article>
 
         <article class="catalog-card">
-          <img class="hotel-4" src="" alt="Гостиница GreenTree Inn" />
+          <img
+            class="hotel-4"
+            src="img/photo/hotel-4.jpg"
+            width="300"
+            height="210"
+            alt="Гостиница GreenTree Inn"
+          />
           <h3 class="catalog-card-title">GreenTree Inn</h3>
           <p class="catalog-card-type">Гостиница</p>
           <p class="catalog-card-price">От 1500 ₽</p>
           <a class="button" href="#">Подробнее</a>
           <button type="button" class="favorites">В избранное</button>
-          <p class="catalog-card-rating">Рейтинг: 5,0</p>
+          <p class="catalog-card-rating">
+            <img src="img/icons/star.svg" />
+            <img src="img/icons/star.svg" /> Рейтинг: 5,0
+          </p>
         </article>
       </section>
 
@@ -211,16 +281,27 @@
 
     <footer>
       <div class="social">
-        <a href="https://vk.com/htmlacademy" target="_blank">Vkontakte</a>
-        <a href="https://t.me/htmlacademy" target="_blank">Telegram</a>
-        <a href="https://www.youtube.com/user/htmlacademyru" target="_blank"
-          >Youtube</a
-        >
+        <a href="https://vk.com/htmlacademy" target="_blank">
+          <img src="img/icons/vk.png" width="24" height="16" alt="Vkontakte" />
+        </a>
+        <a href="https://t.me/htmlacademy" target="_blank">
+          <img src="img/icons/tgk.png" width="24" height="16" alt="Telegram" />
+        </a>
+        <a href="https://www.youtube.com/user/htmlacademyru" target="_blank">
+          <img src="img/icons/yt.png" width="24" height="16" alt="Youtube" />
+        </a>
       </div>
 
       <a class="phone-number" href="tel:+7(812)8121212">+7 (812) 812-12-12</a>
 
-      <a href="https://htmlacademy.ru/" target="_blank">htmlacademy</a>
+      <a href="https://htmlacademy.ru/" target="_blank">
+        <img
+          src="img/icons/HTML Academy.svg"
+          width="115"
+          height="33"
+          alt="htmlacademy"
+        />
+      </a>
     </footer>
   </body>
 </html>
