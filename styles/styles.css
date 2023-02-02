@@ -1,0 +1,123 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+.basic {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: #f2f2f2;
+  color: #242424;
+}
+
+.page-header {
+background-color: #FFFFFF;
+color: #000000;
+}
+
+.navigation-link {
+  font-family: "PT Sans", sans-serif;
+  line-height: 22px;
+  font-weight: 700;
+  text-align: center;
+  color: inherit;
+  background-color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.button-link {
+  font-family: "PT Sans", sans-serif;
+  line-height: 22px;
+  font-weight: 700;
+  text-align: center;
+  color: inherit;
+  background-color: #ffffff;
+  text-decoration: none;
+
+}
+
+.welcome {
+  background-image: url(../images/background/index-background.jpg);
+  background-color: #f2f2f2;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  width: 1200;
+  height: 485;
+}
+
+.main {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.advantages-list {
+  text-align: center;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+
+}
+
+
+.advantages-title {
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+}
+
+.list-item {
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+}
+
+.newsletter {
+  text-align: center;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.footer {
+  font-family: "PT Sans", sans-serif;
+  line-height: 22px;
+  font-weight: 400;
+  color: #000000;
+  background-color: #ffffff;
+  text-align: center;
+}
+.phone-number {
+  font-family: "PT Sans", sans-serif;
+  line-height: 22px;
+  font-weight: 700;
+  text-align: center;
+  color: inherit;
+  background-color: #ffffff;
+}
+.social {
+  text-align: left;
+  position: absolute;
+}
+.academy {
+  text-align: right;
+  position: absolute;
+}
