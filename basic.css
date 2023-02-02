@@ -4,12 +4,19 @@
 }
 
 .welcome {
-  background-image: url(img/background/index-background.jpg);
+  background-image: url(images/background/index-background.jpg);
   background-color: burlywood;
   width: 1200px;
   height: min-content;
 }
 
 .to-main {
-  background-color: rgb(120, 13, 192);
+  background-color: rgb(145, 148, 133);
+}
+
+.inner-header {
+  background-image: url(images/background/filter.png)
+  background-color: burlywood;
+  width: 1200px;
+  height: min-content;
 }
