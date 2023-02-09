@@ -1,8 +1,8 @@
 {
   "editor.renderWhitespace": "selection",
   "files.exclude": {
-      "*:Zone.Identifier": true,
-      "node_modules/": true
+    "*:Zone.Identifier": true,
+    "node_modules/": true
   },
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
   "editor.guides.bracketPairs": "active",
@@ -21,5 +21,6 @@
   "html.format.endWithNewline": true,
   "html.format.indentInnerHtml": true,
   "prettier.htmlWhitespaceSensitivity": "css",
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "prettier.printWidth": 160
 }
