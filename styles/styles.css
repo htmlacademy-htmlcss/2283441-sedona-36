@@ -190,9 +190,7 @@ background-repeat: no-repeat;
 box-sizing: border-box;
 color: #FFFFFF;
 }
-input [type="email" i] {
-  font-family: inherit;
-}
+
 
 /* footer */
 .footer {
