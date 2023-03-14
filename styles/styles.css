@@ -114,8 +114,8 @@ min-height: 64px;
   text-decoration: none;
   text-transform: uppercase;
   margin: 0;
-  padding: 8px 20px;
-  border-radius: 3px;
+  padding: 10px 25px;
+  border-radius: 5px;
 }
 
 /* main */
@@ -570,17 +570,8 @@ color: #FFFFFF;
   text-transform: uppercase;
   text-decoration: none;
   padding: 8px 20px;
+  border-radius: 5px;
 }
-.refresh {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  text-decoration: none;
-  padding: 8px 20px;
-}
-
 
 .catalog-content {
   display: flex;
@@ -634,6 +625,9 @@ color: #FFFFFF;
 }
 
 .catalog-card {
+  display: grid;
+  grid-template-columns: 140px 145px;
+  gap: 15px;
   padding: 20px;
   background-color: rgba(230, 230, 230, 0.1);
   border: 1px solid #E6E6E6;
@@ -642,24 +636,44 @@ color: #FFFFFF;
 }
 
 .catalog-card-title {
+  grid-column: span 2;
+  justify-self: start;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
   color: #000000;
+  margin: 0;
 }
 .card-element {
+  justify-self: start;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
   color: #000000;
+  margin: 0;
+}
+.card-element-price {
+  justify-self: end;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  margin: 0;
+}
+.star {
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 .element {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
+  padding: 10px 25px;
   text-transform: uppercase;
   color: #333333;
   background-color: #F2F2F2;
+  margin: 0;
 }
 .button-favorites {
   font-weight: 700;
@@ -670,6 +684,10 @@ color: #FFFFFF;
   background-color: #7DB54F;
   text-decoration: none;
   padding: 8px 20px;
+  border-radius: 5px;
+}
+.refresh {
+  border-radius: 5px;
 }
 
 .pagination {
