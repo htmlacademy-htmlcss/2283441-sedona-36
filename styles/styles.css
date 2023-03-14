@@ -353,6 +353,213 @@ color: #FFFFFF;
   color: #FFFFFF;
 }
 
+.filter-form-set {
+  margin-left: 0;
+  padding: 0;
+  border: none;
+}
+.filter-form-set-name {
+  text-align: start;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-bottom: 32px;
+  text-transform: capitalize;
+}
+.input-number-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 44px;
+  gap: 2px;
+}
+.label-number-text {
+  position: absolute;
+  width: 17px;
+  height: 24px;
+  color: rgba(0, 0, 0, 0.3);
+  top: 50%;
+  right: 20px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.filter-input-number {
+  width: 100px;
+  height: 20px;
+  background-color: #F2F2F2;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid transparent;
+  padding: 12px 18px;
+  font-weight: 700;
+  font-size: 18px;
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.filter-input-number:not(:disabled):hover {
+  background-color: #E6E6E6;
+  outline: 2px solid #68A2CA;
+}
+
+.filter-input-number:focus {
+  outline: 3px solid #83B3D3;
+}
+
+.filter-input-number:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.filter-input-number::-webkit-outer-spin-button,
+.filter-input-number::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.filter-input-number.min {
+  border-radius: 4px 0 0 4px;
+}
+
+.filter-input-number.max {
+  border-radius: 0 4px 4px 0;
+}
+
+.filter-label-number {
+  position: relative;
+}
+
+.range {
+  width: 100%;
+  height: 4px;
+  background-color: rgb(255 255 255 / 0.3);
+}
+
+.range-progress {
+  position: relative;
+  width: 78.5%;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.range-control {
+  position: absolute;
+  display: block;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  height: 20px;
+  width: 20px;
+  border-radius: 5px;
+  border: 0;
+  background-color: #ffffff;
+  outline: none;
+  cursor: move;
+}
+
+.range-control:hover {
+  -webkit-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.range-control:focus {
+  border: 3px solid #83B3D3;
+  -webkit-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.range-control:active {
+  border: 2px solid #83B3D3;
+  -webkit-box-shadow: 0 7px 15px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 7px 15px rgba(0, 0, 0, 0.4);
+}
+
+.range-control:disabled {
+  background-color: #999;
+  cursor: not-allowed;
+}
+
+
+.range-control.max {
+  right: 0;
+}
+
+.filter-form-set {
+  margin-left: 0;
+  padding: 0;
+  border: none;
+}
+
+
+.filter-form-set.cost {
+  width: 220px;
+  margin-right: 70px;
+}
+
+.filter-form-set.button-wrapper {
+  width: 190px;
+  padding-top: 56px;
+  margin-right: 0;
+}
+
+.filter-form-set-name {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 32px;
+  text-transform: capitalize;
+}
+
+.form-button {
+  width: 190px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 36px;
+  font-family: inherit;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: #82B3D3;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 8px 18px;
+  white-space: nowrap;
+  outline: none;
+  cursor: pointer;
+}
+
+.form-button-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  gap: 32px;
+}
+
+.button.ghost {
+  background-color: transparent;
+}
 
 .apply {
   font-weight: 700;
