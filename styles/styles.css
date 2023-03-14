@@ -317,24 +317,42 @@ color: #FFFFFF;
   list-style-type: none;
 }
 
+.catalog-products {
+  display: flex;
+  justify-content: space-between;
+}
+.catalog-filter-group-house {
+  display: flex;
+  flex-wrap: wrap;
+  width: 150px;
+  margin-right: 65px;
+  padding: 0;
+}
+
 .catalog-filter {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
+  display: flex;
+  justify-content: space-between;
 }
 .catalog-filter-legend {
+  text-align: start;
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
   color: #FFFFFF;
+  margin-bottom: 20px;
 }
 
 .control-label {
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 10px;
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
   color: #FFFFFF;
 }
+
 
 .apply {
   font-weight: 700;
@@ -360,6 +378,7 @@ color: #FFFFFF;
 .catalog-content {
   display: flex;
   align-items: center;
+  margin-top: 40px;
   margin-bottom: 40px;
 }
 
